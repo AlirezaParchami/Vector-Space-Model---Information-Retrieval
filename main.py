@@ -74,11 +74,43 @@ def query_as_doc():
         df = len([item for row in tf_table for item in row if item[0] == term[0]]) + 1 # we regard query as a document. the first statement search df among documents. but we should add 1 because query is a document too
         idf = math.log10( (len(tf_table)+1) / df)
         term[1] = term[1] * idf
+    print("Document Frequenct:\n", tf_q)
+    return tf_q
 
-    #print("Document Frequenct:\n", tf_q)
+def cosSim():
+    global query
+    global tf_idf_table
+    cosSim_rate = []
+    for doc_index in range(0,len(tf_idf_table)):
+        intersection = []
+        innerProduct = []
+        for q in query:
+            for item in tf_idf_table[doc_index]:
+                if item[0] == q[0]:
+                    intersection.append(item)
+                    innerProduct.append(item[1]*q[1])
+        print("Doc=",doc_index,"    ",intersection)
+        print(innerProduct)
+        sum = 0
+        for i in innerProduct:
+            sum = sum + i
+        print("sum = ", sum)
+        query_length = vector_length(query)
+        print("query_length = ", query_length)
+        doc_length = vector_length(tf_idf_table[doc_index])
+        print("doc_length = ", doc_length)
+        ans = sum / (query_length*doc_length)
+        print("ans=",ans)
+        cosSim_rate.append([doc_index+1, ans])
+    return cosSim_rate
 
 
-
+def vector_length(vector):
+    sum = 0
+    for i in vector:
+        sum = sum + math.pow(i[1],2)
+    ans = math.sqrt(sum)
+    return ans
 
 read_common_words()
 read_docs()
@@ -87,4 +119,8 @@ print("----------------------")
 tf_idf()
 print_tf_table(tf_idf_table)
 query = input("Enter Query:")
-query_as_doc()
+query = query_as_doc()
+print("-----------------")
+similarity_rate = cosSim()
+similarity_rate.sort(key=lambda x:x[1])
+print(similarity_rate)
