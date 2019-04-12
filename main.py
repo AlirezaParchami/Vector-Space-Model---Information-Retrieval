@@ -2,6 +2,7 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import sent_tokenize, word_tokenize
 from collections import OrderedDict
 import math
+import string
 
 frequent_words = set()
 ps = PorterStemmer()
@@ -53,9 +54,37 @@ def tf_idf():
             doc_tf_idf.append([term[0],tfidf])
         tf_idf_table.append(doc_tf_idf)
 
+def query_as_doc():
+    global query
+    q = query.split()
+    tf_q = list()
+    for term in q:
+        term = term.replace('.', '').replace('?', '').replace(',', '')
+        term = ps.stem(term)
+        # Calcuate Term Frequency
+        is_existing = [item for item in tf_q if item[0] == term]
+        if len(is_existing) == 0:
+            tf_q.append([term,1])
+        if len(is_existing) != 0:
+            is_existing[0][1] = is_existing[0][1] + 1
+    print("Term Frequenct:\n",tf_q)
+
+    # Calculate Document Frequency
+    for term in tf_q:
+        df = len([item for row in tf_table for item in row if item[0] == term[0]]) + 1 # we regard query as a document. the first statement search df among documents. but we should add 1 because query is a document too
+        idf = math.log10( (len(tf_table)+1) / df)
+        term[1] = term[1] * idf
+
+    #print("Document Frequenct:\n", tf_q)
+
+
+
+
 read_common_words()
 read_docs()
 print_tf_table(tf_table)
 print("----------------------")
 tf_idf()
 print_tf_table(tf_idf_table)
+query = input("Enter Query:")
+query_as_doc()
