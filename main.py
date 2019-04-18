@@ -9,6 +9,7 @@ ps = PorterStemmer()
 number_of_doc = 5
 tf_table = []
 tf_idf_table = []
+F4 = map()
 def read_common_words():
     f = open("./Documents/frequent.txt", "r")
     for x in f:
@@ -48,7 +49,7 @@ def tf_idf():
         doc_tf_idf = []
         for term in doc:
             df = len([item for row in tf_table for item in row if item[0] == term[0]])  # Document Frequency
-            print(df)
+            # print(df)
             idf = math.log10(len(tf_table)/df)
             tfidf = term[1] * idf
             doc_tf_idf.append([term[0],tfidf])
@@ -112,6 +113,14 @@ def vector_length(vector):
     ans = math.sqrt(sum)
     return ans
 
+def F4_measure():
+    global f4
+    N = number_of_doc
+    n =
+    R = len(relevant)
+    r =
+    #use relevant to find r and search all docs to find n.
+
 read_common_words()
 read_docs()
 print_tf_table(tf_table)
@@ -124,3 +133,8 @@ print("-----------------")
 similarity_rate = cosSim()
 similarity_rate.sort(key=lambda x:x[1])
 print(similarity_rate)
+
+print("------------ F4 ---------")
+relevant = input("Enter Relevant docs numbers with space:")
+relevant = relevant.split()  # split document's number in list
+relevant = list(map(int,relevant))  # change strings to int
