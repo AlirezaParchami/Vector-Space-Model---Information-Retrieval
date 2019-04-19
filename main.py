@@ -91,18 +91,18 @@ def cosSim():
                 if item[0] == q[0]:
                     intersection.append(item)
                     innerProduct.append(item[1]*q[1])
-        print("Doc=",doc_index,"    ",intersection)
-        print(innerProduct)
+        #print("Doc=",doc_index,"    ",intersection)
+        #print(innerProduct)
         sum = 0
         for i in innerProduct:
             sum = sum + i
-        print("sum = ", sum)
+        #print("sum = ", sum)
         query_length = vector_length(query)
-        print("query_length = ", query_length)
+        #print("query_length = ", query_length)
         doc_length = vector_length(tf_idf_table[doc_index])
-        print("doc_length = ", doc_length)
+        #print("doc_length = ", doc_length)
         ans = sum / (query_length*doc_length)
-        print("ans=",ans)
+        #print("ans=",ans)
         cosSim_rate.append([doc_index+1, ans])
     return cosSim_rate
 
@@ -130,8 +130,8 @@ def Prob_of_Relevance(query):
                 n[term[0]] = n[term[0]] + 1
                 if (doc_index) in relevant:
                     r[term[0]] = r[term[0]] + 1
-    print(n)
-    print(r)
+    #print("n = ",n)
+    #print("r = ",r)
     f4_dict = f4_measurement(query,N,n,R,r)
     reweighting(f4_dict)
 
@@ -157,20 +157,23 @@ def reweighting(f4_dict):
 read_common_words()
 read_docs()
 print_tf_table(tf_table)
-print("----------------------")
+print("\n----------------Print TF-IDF Table------------")
 tf_idf()
 print_tf_table(tf_idf_table)
+
+print("\n----------------YOUR Query------------")
 query = input("Enter Query:")
-query = query_as_doc()
-print("-----------------")
+query = query_as_doc() #calculate Term Frequency for query
+print("Query = ", query)
+
+print("\n----------------Cosine Similaeiry------------")
 similarity_rate = cosSim()
 similarity_rate.sort(key=lambda x:x[1],reverse=True)
-print(similarity_rate)
+print("CosSim = ", similarity_rate)
 
-print("------------ F4 ---------")
-relevant = input("Enter Relevant docs numbers with space:")
-relevant = relevant.split()  # split document's number in list
-relevant = list(map(int,relevant))  # change strings to int
+print("\n----------------Probability of Relevance and F4 Measurement------------")
+relevant = input("Enter Relevant docs' number with space:")
+relevant = list(map(int,relevant.split()))  # change strings to int
 relevant[:] = [x-1 for x in relevant]  # change range of numbers from 1:number_of_doc+1 to 0:number_of_doc
 Prob_of_Relevance(query)
 F4_reweighting = sorted(F4_reweighting.items(), key=lambda kv:(kv[1]), reverse=True)  # Sort docs based on F4 measure
