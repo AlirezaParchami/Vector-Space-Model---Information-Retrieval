@@ -9,7 +9,7 @@ ps = PorterStemmer()
 number_of_doc = 5
 tf_table = []
 tf_idf_table = []
-F4 = map()
+F4 = dict()
 def read_common_words():
     f = open("./Documents/frequent.txt", "r")
     for x in f:
@@ -113,13 +113,26 @@ def vector_length(vector):
     ans = math.sqrt(sum)
     return ans
 
-def F4_measure():
+def Prob_of_Relevance(query):
     global f4
     N = number_of_doc
-    n =
     R = len(relevant)
-    r =
+    n = dict()
+    r = dict()
     #use relevant to find r and search all docs to find n.
+    for term in query:
+        if term[0] not in n:
+            n[term[0]] = 0
+            r[term[0]] = 0
+        for doc_index in range(0,number_of_doc):
+            if any(term[0] == x[0] for x in tf_table[doc_index]):
+                n[term[0]] = n[term[0]] + 1
+                if (doc_index + 1) in relevant:
+                    r[term[0]] = r[term[0]] + 1
+    print(n)
+    print(r)
+
+
 
 read_common_words()
 read_docs()
@@ -138,3 +151,4 @@ print("------------ F4 ---------")
 relevant = input("Enter Relevant docs numbers with space:")
 relevant = relevant.split()  # split document's number in list
 relevant = list(map(int,relevant))  # change strings to int
+Prob_of_Relevance(query)
