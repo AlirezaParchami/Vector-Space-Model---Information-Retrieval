@@ -9,7 +9,7 @@ ps = PorterStemmer()
 number_of_doc = 5
 tf_table = []
 tf_idf_table = []
-F4 = dict()
+F4_reweighting = dict()
 def read_common_words():
     f = open("./Documents/frequent.txt", "r")
     for x in f:
@@ -127,16 +127,30 @@ def Prob_of_Relevance(query):
         for doc_index in range(0,number_of_doc):
             if any(term[0] == x[0] for x in tf_table[doc_index]):
                 n[term[0]] = n[term[0]] + 1
-                if (doc_index + 1) in relevant:
+                if (doc_index) in relevant:
                     r[term[0]] = r[term[0]] + 1
     print(n)
     print(r)
+    f4_dict = f4_measurement(query,N,n,R,r)
+    reweighting(f4_dict)
 
 def f4_measurement(query,N,n,R,r):
+    F4 = dict()
     for term in query:
         dividend = (r[term[0]] + 0.5) / (R-r[ term[0] ] + 0.5)
         divisor = (0.5 + n[term[0]] - r[term[0]] ) / (0.5 + (N-n[term[0]]) - (R - r[term[0]]) )
         F4[term[0]] = math.log10(dividend/divisor)
+    return F4
+
+
+def reweighting(f4_dict):
+    global F4_reweighting
+    for doc_index in range(0,number_of_doc):
+        f4_sum = 0
+        for term in query:
+            if any(term[0] == x[0] for x in tf_table[doc_index]):
+                f4_sum = f4_sum + f4_dict[term[0]]
+        F4_reweighting[doc_index] = f4_sum
 
 
 read_common_words()
@@ -156,4 +170,5 @@ print("------------ F4 ---------")
 relevant = input("Enter Relevant docs numbers with space:")
 relevant = relevant.split()  # split document's number in list
 relevant = list(map(int,relevant))  # change strings to int
+relevant[:] = [x-1 for x in relevant]
 Prob_of_Relevance(query)
