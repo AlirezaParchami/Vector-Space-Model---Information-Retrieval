@@ -1,0 +1,25 @@
+At KubeCon, Oracle Extends Commitment to Openness
+At KubeCon + CloudNativeCon, Oracle Cloud Infrastructure unveiled the Oracle Cloud Native Framework, the world's most comprehensive open source framework for deploying public cloud, hybrid cloud, and on-premises applications.
+
+I'm especially excited about this announcement because it represents another step forward in our mission to give developers the tools that they need to reduce complexity and deploy modern applications in any type of environment. It's also the latest example of Oracle Cloud Infrastructure's longstanding commitment to interoperability and open standards.
+
+The Oracle Cloud Native Framework introduces a comprehensive set of new cloud-native resources for developers. One of those resources is Oracle Functions, a serverless cloud service based on the open source Fn Project.
+
+As part of the announcement, we also introduced a rich set of cloud-native offerings built on Oracle Cloud Infrastructure Container Engine for Kubernetes, our Kubernetes orchestration and management layer. These resources address developer needs in three key areas: provisioning, application definition and development, and observability and analysis.
+
+Embracing Open Standards
+
+A commitment to openness is one of the five key pillars that Oracle Cloud Infrastructure is built on, along with protecting customers' existing investments, ensuring security, delivering mission-critical performance, and providing unmatched enterprise expertise.
+
+We embrace open standards because they enable our customers to be agile and responsive to changing business requirements. Open standards ensure that customers have the freedom and flexibility to move workloads between their on-premises data centers and Oracle Cloud, and even to other vendors' clouds when needed. Additionally, open standards lower barriers to innovation and reduce the total cost of technology investments.
+
+Oracle has a long history of supporting open standards and making technical contributions to the open source communities responsible for Linux, Berkeley DB, Xen, MySQL, and many other technologies. Additionally, Oracle is a contributing member of several industry groups that promote open standards, including the Eclipse Foundation, the Cloud Security Alliance, and the Internet Society. And this year, we expanded our membership in and contributions to the Cloud Native Computing Foundation (CNCF).
+
+Oracle Cloud Infrastructure has made several announcements in recent months that advance our commitment to openness and support the needs of software developers. Following is a summary of some of the latest news.
+
+Oracle Linux Cloud-Native Environment
+
+Introduced at Oracle OpenWorld 2018 in October, the Oracle Linux Cloud Native Environment gives developers the features that they need to develop microservices-based applications that can be deployed in environments that support open standards. The Oracle Linux Cloud Native Environment is based entirely on open standards, specifications, and APIs defined by the CNCF.
+
+The environment makes it easier for developers to create, orchestrate, and manage containers. It also provides tools and resources for cloud native networking and storage, continuous integration and continuous delivery, and observability and diagnostics.
+Oracle

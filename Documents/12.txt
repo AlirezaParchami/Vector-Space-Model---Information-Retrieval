@@ -1,0 +1,7 @@
+Learn It, Do It, Brag About It: How User Groups Move Big Tech Forward
+Pushing your company into promising new technology—while at the same time keeping the current, critical tech humming—is a maneuver best attempted with friends at your side.
+
+I think about this every year when I attend the Collaborate technology conference, a confluence of three major Oracle user groups where people who run big applications for functions like enterprise resource planning meet alongside those who write code or manage databases or build complex data center architectures. More than 5,000 tech pros meet in sessions with names like, “Regulatory Compliance Is in Your NDA—Is it Part of Your DNA?” or “Leverage Robotic Process Automation to Meet Your Business Objectives.” There are a thousand such sessions over four days and nights.
+
+“One of the things I want to learn about at Collaborate is managing trade compliance using artificial intelligence,” says Hans Kolbe, who helps manage technology investments for multinational companies and is part of an Emerging Tech Special Interest Group (SIG), which meets face to face at the meeting. “Others in our group are looking to wrap their heads around blockchain by hearing true business cases.”
+Oracle

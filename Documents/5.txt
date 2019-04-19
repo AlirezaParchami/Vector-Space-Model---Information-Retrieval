@@ -1,5 +1,13 @@
-How are you Mr.gold?
-I am glad to meet you.
-It is about five years that I have not seen you.
-I heard that your computer had broken.
-I want to know that you are my best friend.
+Artificial intelligence takes on ocean trash: Cleaning up the world’s beaches with the help of data
+AI for Earth grantee Sustainable Coastlines empowers communities to restore their marine environments
+Inspiration sometimes arrives in strange ways. Here is the story of how a dirty disposable diaper led to the development of an artificial intelligence (AI) solution to help rid the world’s coasts of massive amounts of waste and garbage.
+
+It starts in 2005: Camden Howitt is surfing off Puerto Escondido on Mexico’s wild west coast when, suddenly, a floating diaper smacks him in the face. He paddles back to shore in disgust, only to stumble upon a discarded toilet seat lying on the sand.
+
+When Howitt returns home to New Zealand half a world away, his heart sinks when he sees how much trash and other refuse is also washing up on its geographically isolated, and once pristine, 15,000-kilometer (9,300-mile) coastline.
+
+Many people might merely shrug at such a seemingly intractable global problem and see it as just too hard to fix. But not Howitt. His mission became clear: He would dedicate his life to protecting paradise.
+Co-Founder Sam Judd came up with the idea of forming a non-profit organization while surfing in the Galápagos Islands in 2008. A year later, the two created Sustainable Coastlines in New Zealand to educate, motivate, and empower individuals and communities to clean up and restore their coastal environments and waterways.
+
+It was the start of an obsession, and one that has just attracted a grant from AI for Earth: Microsoft’s US$50 million, five-year commitment to put AI in the hands of those working to protect our planet across four key areas – agriculture, biodiversity, climate change, and water.
+Microsoft

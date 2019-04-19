@@ -1,0 +1,26 @@
+Emerging Tech Shines at Oracle OpenWorld
+By Alison Weiss
+
+Some executive decision-makers still see artificial intelligence (AI), machine learning, and blockchain as futuristic and don’t yet fully grasp how these and other emerging technologies are relevant to improving daily business operations. But at Oracle OpenWorld 2018, Oracle leaders detailed how emerging technologies are now incorporated in foundational Oracle products and services, enabling enterprises to keep pace with change and gain a competitive edge today and in the future.
+
+Autonomous Security in Second-Generation Oracle Cloud Infrastructure
+
+At the most essential level, Oracle has incorporated machine learning and AI in its new second-generation Oracle Cloud Infrastructure to rearchitect the conventional public cloud. During his October 21 keynote address, Oracle Executive Chairman and CTO Larry Ellison said the changes were necessary because “the current state of the art of cloud defenses is just not good enough, not even close.”
+
+Oracle Cloud Infrastructure features cyberdefenses that protect the perimeter of customers’ cloud-based servers and isolate them from one another and from the Oracle control code inside Oracle’s cloud. In addition, Oracle Cloud Infrastructure deploys the latest AI and machine learning technology in the form of “autonomous robots” that locate and eliminate malicious attacks coming from sophisticated, bot-equipped hackers. “Threats can’t enter, and threats can’t spread. It’s a big deal,” said Ellison.
+
+Further, Oracle Cloud Infrastructure makes it easy to migrate existing enterprise workloads to the cloud to protect customer investments. Moving forward, every customer buying Oracle database and infrastructure services will get the second-generation Oracle Cloud Infrastructure, which is available now in the public cloud. Oracle Cloud Infrastructure will be available in 2019 with Oracle Cloud at Customer, Oracle’s program that provides the public cloud behind the customer’s firewall.
+Ahead of the AI and Machine Learning Curve
+
+In his October 23 keynote address, Oracle CEO Mark Hurd homed in on how the cloud and integrated technology such as AI are key to helping organizations lower costs while driving innovation and improving productivity. However, Oracle doesn’t see AI as an independent solution. “We see AI as a core feature that will get embedded into virtually every solution and every application,” he said.
+
+Hurd believes that by 2025 AI will be pervasive in all cloud and business applications as well as platform services and that 85% of interactions with customers will be automated.
+
+Oracle is ahead of the market with its next-generation Oracle Applications. The complete suite seamlessly integrates machine learning and AI features into existing tasks and processes to reduce the learning curve and offer experiences that are more intuitive and personalized to empower business users across the enterprise, including finance, HR, customer experience, and supply chain professionals.
+
+In particular, new AI-powered innovations have been added to Oracle Human Capital Management Cloud (Oracle HCM Cloud), Oracle Enterprise Resource Planning Cloud(Oracle ERP Cloud), and Oracle Enterprise Performance Management Cloud (Oracle EPM Cloud). Oracle HCM Cloud includes a variety of improvements, including an HR-trained bot that gives employees a fast way to get answers to common HR questions, and Oracle ERP Cloud will soon feature AI-powered payment capabilities. Further, Oracle EPM Cloud will soon sport AI capabilities to help pinpoint performance management data patterns.
+
+During his October 24 keynote, Ellison demonstrated the new Oracle Digital Assistant, which applies AI to natural language processing and machine learning so it can understand context, derive intent, and identify and learn user behaviors and patterns to pull answers across enterprise applications, including organization charts, calendars, and operating data. Users can take advantage of any of the most common voice and messaging platforms as a front end to Oracle Digital Assistant, including Slack and Amazon Alexa.
+
+Ellison also introduced the new Oracle Fusion Analytics Warehouse, built on Oracle Analytics Cloud and Oracle Autonomous Data Warehouse Cloud. It features machine learning capabilities and can extract data across cloud applications, including accounting, marketing, and HR. It is designed to automate critical business processes and identify key insights for business users, developers, and IT professionals. “We automate those tedious processes, we automate those complex processes, giving you huge productivity gains, by adopting our next-generation cloud applications,” said Ellison.
+Oracle

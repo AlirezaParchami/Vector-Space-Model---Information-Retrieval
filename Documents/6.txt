@@ -1,0 +1,5 @@
+AI for Earth with Dr. Lucas Joppa
+We hear a lot these days about “AI for good” and the efforts of many companies to harness the power of artificial intelligence to solve some of our biggest environmental challenges. It’s rare, however, that you find a company willing to bring its environmental bona fides all the way to the C Suite. Well, meet Dr. Lucas Joppa. A former environmental and computer science researcher at MSR who was tapped in 2017 to become the company’s first Chief Environmental Scientist, Dr. Joppa is now the Chief Environmental Officer at Microsoft, another first, and is responsible for managing the company’s overall environmental sustainability efforts from operations to policy to technology.
+
+Today, Dr. Joppa shares how his love for nature and the joy of discovery actually helped shape his career path, and tells us all about AI for Earth, a multi-year, multi-million dollar initiative to deploy the full scale of Microsoft’s products, policies and partnerships across four key areas of agriculture, water, biodiversity and climate, and transform the way society monitors, models, and ultimately manages Earth’s natural resources.
+Microsoft

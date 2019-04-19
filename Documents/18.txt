@@ -1,0 +1,10 @@
+Oracle Academy Expands Offerings
+Oracle Academy has announced new curriculum offerings and learning modules to advance computing education globally. The latest offerings put Oracle Academy at the forefront of public-private partnerships in education with a variety of enhanced, flexible formats that help educators teach computer science, bring emerging technologies like artificial intelligence (AI) and machine learning (ML) into the classroom, and inspire students with lessons from successful innovators and entrepreneurs.
+
+As technological innovation increasingly drives our global economy, computer science becomes a critical component of any well-rounded education. Oracle Academy’s new computing coursework and learning experiences will augment that education, open more opportunities and further inspire our emerging generation of innovators.
+Setting the Standard for the Next Generation in Computing Education
+
+Building a bridge between instructor-centric learning and student-directed discovery, Oracle Academy has introduced Oracle Academy Education Bytes. Designed to support personalized learning, Education Bytes are short-format, flexible learning modules that offer instructional materials on database, programming, and data science concepts and skills. Education Bytes can be used alone or to enhance Oracle Academy curriculum and provide self-directed learning experiences in programming, SQL, PL/SQL, big data, R, Hadoop and more. Education Bytes support varying learning modalities with different content in three formats: Hands-On Labs, Projects and Challenges, and Videos and Presentations.
+
+Recognizing the importance of emerging technologies, Oracle Academy also launched new course curriculum in artificial intelligence and machine learning. Designed for advanced undergraduates studying computing, the course asks students to design, implement, and demonstrate a machine learning solution in Java that could help a business or organization tackle a real-world challenge. This project-based course expands upon concepts and skills gained in Oracle Academy Java Foundations and Java Programming classes.
+Oracle

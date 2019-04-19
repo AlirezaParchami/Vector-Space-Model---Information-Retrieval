@@ -1,0 +1,7 @@
+Teaching computers to play Doom is a blind alley for AI – here’s an alternative
+Games have long been used as testbeds and benchmarks for artificial intelligence, and there has been no shortage of achievements in recent months. Google DeepMind’s AlphaGo and poker bot Libratus from Carnegie Mellon University have both beaten human experts at games that have traditionally been hard for AI – some 20 years after IBM’s DeepBlue achieved the same feat in chess.
+
+Games like these have the attraction of clearly defined rules; they are relatively simple and cheap for AI researchers to work with, and they provide a variety of cognitive challenges at any desired level of difficulty. By inventing algorithms that play them well, researchers hope to gain insights into the mechanisms needed to function autonomously.
+
+With the arrival of the latest techniques in AI and machine learning, attention is now shifting to visually detailed computer games – including the 3D shooter Doom, various 2D Atari games such as Pong and Space Invaders, and the real-time strategy game StarCraft.
+IBM

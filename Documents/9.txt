@@ -1,0 +1,10 @@
+DoD IL5 scope expands to cover to all Azure Government regions
+
+Based on mission owner feedback and evolving security capabilities, Microsoft has partnered with the DoD to expand the IL5 Provisional Authorization (PA) granted by the DoD to all Azure Government regions. This expanded coverage provides customers with more PaaS features and services at IL5 than any other cloud provider.
+
+This expanded range of PaaS services means mission owners can leverage managed services to be more productive. For example, development teams can use Azure App Service to quickly create cloud apps using a fully managed platform, or Azure SQL Database for a fully managed relational cloud database service that provides the broadest SQL Server engine compatibility.
+
+In addition, mission owners will benefit from decreased latency, expanded geo-redundancy, and additional options for DR and budget optimization. Today, more than 25 services are available across all Azure Government regions at IL5, and these new systems will accelerate access to new IL5 services as they become available in Azure Government.
+
+Customers should note, when supporting IL5 workloads on Azure Government, that isolation requirements can be met in different ways. The isolation guidelines for IL5 workloads documentation page addresses configurations and settings for the isolation required to support IL5 data.
+microsoft

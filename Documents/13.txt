@@ -1,0 +1,9 @@
+Oracle Cloud Powers City of San Jose's Smart App
+What does it take to become America's most innovative city? The City of San Jose has embarked on a journey to answer that question, aiming to become America's Most Innovative City by 2020.
+
+How is Oracle helping on this journey? The City of San Jose is taking an innovative approach to IT infrastructure by improving citizen engagement with the power of emerging technology.
+
+San Jose is the tenth largest city in the nation, with 1.2 million residents and tens of thousands of business spread across 180 square miles. City leaders were looking for a solution to provide municipal services to citizens efficiently and cost-effectively, which is a challenge considering they were receiving more than 250,000 phone calls and had to track 500,000-plus citizen engagements annually. While these interaction volumes continued to climb, citizens were expecting a modern way to interact with the city.
+
+With these challenges in mind, San Jose was able to implement Oracle SaaS and PaaS services to provide a knowledge-centered service environment to citizens. With Oracle Service Cloud, the city has established a master record of 500,000-plus annual citizen engagements with an omnichannel solution. Also, the city reduced the number of phone calls by implementing a modern 311 system that citizens can use to request information or report problems.
+Oracle

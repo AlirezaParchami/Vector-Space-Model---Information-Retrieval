@@ -7,7 +7,7 @@ import string
 
 frequent_words = set()
 ps = PorterStemmer()
-number_of_doc = 5
+number_of_doc = 20
 tf_table = []
 tf_idf_table = []
 F4_reweighting = dict()
