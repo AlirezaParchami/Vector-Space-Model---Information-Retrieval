@@ -4,6 +4,7 @@ from collections import OrderedDict
 import math
 import string
 
+
 frequent_words = set()
 ps = PorterStemmer()
 number_of_doc = 5
@@ -163,12 +164,17 @@ query = input("Enter Query:")
 query = query_as_doc()
 print("-----------------")
 similarity_rate = cosSim()
-similarity_rate.sort(key=lambda x:x[1])
+similarity_rate.sort(key=lambda x:x[1],reverse=True)
 print(similarity_rate)
 
 print("------------ F4 ---------")
 relevant = input("Enter Relevant docs numbers with space:")
 relevant = relevant.split()  # split document's number in list
 relevant = list(map(int,relevant))  # change strings to int
-relevant[:] = [x-1 for x in relevant]
+relevant[:] = [x-1 for x in relevant]  # change range of numbers from 1:number_of_doc+1 to 0:number_of_doc
 Prob_of_Relevance(query)
+F4_reweighting = sorted(F4_reweighting.items(), key=lambda kv:(kv[1]), reverse=True)  # Sort docs based on F4 measure
+F4_reweighting = [list(elem) for elem in F4_reweighting]
+for element in F4_reweighting:  # change range of numbers to normal range
+    element[0] = element[0] + 1
+print(F4_reweighting)
