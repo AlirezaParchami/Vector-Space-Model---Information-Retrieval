@@ -132,6 +132,11 @@ def Prob_of_Relevance(query):
     print(n)
     print(r)
 
+def f4_measurement(query,N,n,R,r):
+    for term in query:
+        dividend = (r[term[0]] + 0.5) / (R-r[ term[0] ] + 0.5)
+        divisor = (0.5 + n[term[0]] - r[term[0]] ) / (0.5 + (N-n[term[0]]) - (R - r[term[0]]) )
+        F4[term[0]] = math.log10(dividend/divisor)
 
 
 read_common_words()
